@@ -1,0 +1,113 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ /* testimonials */
+
+
+/* top image below caption simple */
+.top-image-below-caption {
+    margin: 0px 15px;
+    /*padding: 30px;*/
+}
+.top-image-below-caption-simple .article-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    text-align: center;
+    text-align: -webkit-center;
+    margin: 0 auto;
+}
+.top-image-below-caption-simple .article-caption {
+    text-align: center;
+    padding: 80px 30px 10px 30px;
+	margin-top: -75px;
+}
+.top-image-below-caption-simple .article-caption p {
+    text-align: justify;
+}
+.top-image-below-caption-simple .article-caption h3 {
+    font-size: 26px;
+    padding: 5px 0px;
+    font-weight: 700;
+}
+.top-image-below-caption-simple .article-caption h4 {
+    font-size: 18px;
+    padding:  0px;
+}
+/* new */
+.testimonials-default {
+    max-width: 100%;
+    margin: 0 auto;
+	margin: 0px 15px;
+}
+.testimonials-default .article-image{
+    display: -webkit-inline-box;
+}
+.testimonials-default .testimonial_details h3{
+    font-size: 20px;
+    padding: 5px 0px;
+    font-weight: 700;
+}
+.testimonials-default  h4.testimonial_designation {
+    font-size: 16px;
+}
+.testimonials-default .testimonials_image {
+    border: 1px solid #cccc;
+    border-radius: 100%;
+    overflow: hidden;
+    max-width: 100px;
+    max-height: 100px;
+	margin-right: 20px;
+}
+.testimonials-default .article-caption{
+    background: rgba(241, 241, 241, 0.32);
+    padding: 30px;
+    margin: 30px 0px;
+}
+.testimonials-default  .article-caption p {
+    text-align: justify;
+}
+.testimonials-default .testimonial_details {
+  
+    padding-top: 20px;
+}
+@media screen and (max-width: 430px){
+	.testimonials-default  .article-image {
+		display: block;
+		text-align: -webkit-center;
+	}
+	.testimonials-default  .article-image .testimonials_image{
+		margin-right: 0px;
+	}
+}
+/* end testimonials */
+.advanced_testimonials .slick-next:before{
+    content: "" !important;
+}
+.advanced_testimonials .slick-next{
+    background: url(../images/next.png) no-repeat no-repeat !important;
+    background-position: center !important;
+}
+.advanced_testimonials .slick-next:hover{
+    background: url(../images/nexth.png) no-repeat no-repeat !important;
+     background-position: center !important;
+    }
+.advanced_testimonials .slick-prev, .advanced_testimonials .slick-next {
+    width: 50px;
+    z-index: 10;
+    height: 50px;
+}
+
+.advanced_testimonials .slick-prev:before{
+    content: none !important;
+}
+.advanced_testimonials .slick-prev{
+    background: url(../images/prev.png) no-repeat no-repeat !important;
+    background-position: center !important;
+}
+.advanced_testimonials .slick-prev:hover{
+    background: url(../images/prevh.png) no-repeat no-repeat !important;
+     background-position: center !important;
+}
